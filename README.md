@@ -2,10 +2,6 @@
 
 Inspector-image is a program that reads and analyzes the binary data of a JPEG which was created using a [steganography technique](#steganography).
 
-## Audit instructions
-
-Audit questions can be found [here](https://github.com/01-edu/public/tree/master/subjects/cybersecurity/inspector-image/audit).
-
 ## Steganography
 
 Steganography is the practice of representing information within another message or physical object. In this particular case a JPEG image was used to hide a PGP key as a simple string at the end of the JPEG binary. This is what the output looks like if you read the content of the JPEG as binary (Python represents binary values as hexadecimal when ouputting to the console):
